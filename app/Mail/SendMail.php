@@ -30,6 +30,6 @@ class SendMail extends Mailable
     {
         return $this->markdown('SendMail')
         ->subject('Test Mailing')
-        ->to('matthewdavidd21@gmail.com');
+        ->to('vyyvana@gmail.com');
     }
 }
