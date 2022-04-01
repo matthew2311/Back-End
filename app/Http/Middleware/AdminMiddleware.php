@@ -24,5 +24,6 @@ class AdminMiddleware
         else{
             return redirect('/login');
         }
+        return $next($request);
     }
 }
